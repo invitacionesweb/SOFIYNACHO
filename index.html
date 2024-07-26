@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOFI Y NACHO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <div class="novios">
+        <img class="desk" src="./img-editables/names.png" alt="">
+       </div>
+    </header>
+    <div class="contador">
+        <div class="bloque">
+          <div id="dias" class="numero"></div>
+          <div class="etiqueta">Días</div>
+        </div>
+    
+        <div class="bloque">
+          <div id="horas" class="numero"></div>
+          <div class="etiqueta">horas</div>
+        </div>
+    
+        <div class="bloque">
+          <div id="minutos" class="numero"></div>
+          <div class="etiqueta">minutos</div>
+        </div>
+    
+        <div class="bloque">
+          <div id="segundos" class="numero"></div>
+          <div class="etiqueta">segundos</div>
+        </div>
+    </div>
+    <div id="scroll-to-top">
+        <a href="#inicio">
+          <img src="./figuras/arrow.png" alt="Volver al inicio">
+        </a>
+      </div>
+    <div class="audiodiv">
+        <audio controls .mejs-container autoplay src="./desafiando-el-destino-letra-lyrics.mp3"></audio >
+    </div> 
+    <div class="lovestory">
+        <div  class="text">
+            <h2>NUESTRA HISTORIA</h2>
+            <p data-aos="fade-in" >Se conocieron un día de verano en el mes de enero, hace 15 años. Por distintas decisiones y caminos de la vida, no coincidieron durante bastante tiempo; hasta que él decidió volver de un viaje al extranjero y ella aceptó su propuesta de salir el primer día de su llegada a Buenos Aires. </p>
+            <p data-aos="fade-in" >Era el destino: una nueva noche de verano en el mes de enero, se reencontraron después de años. Su conexión fue instantánea… las risas, las palabras, la calidez de ambos al mirarse, se entendían con solo un gesto. Fue mágico. </p>
+            <p data-aos="fade-in" >En ese momento, todo tuvo sentido. Ambos comprendieron que era necesario superar todos los obstáculos y dificultades que aparecieron en el camino para estar presentes en ese lugar y fecha exacta, con el objetivo de caminar siempre juntos y nunca soltarse. </p>
+
+            <p>S & N</p>
+        </div>
+    </div>
+  
+    <div class="ubicacion">
+        <div data-aos="fade-up"  class="ubicacion-bloque">
+            <img class="icon" src="./figuras/iglesia.png" alt="iglesia">
+            <h2>CEREMONIA</h2>
+            <p>Te invitamos a celebrar nuestra boda el próximo 16 de Noviembre a las 19 hs. <br>Parroquia Santa Teresita del niño Jesús.<br>Julio A. Roca 2045.</p>
+            
+            <a class="boton" href="https://www.google.com/maps?s=web&lqi=CilQYXJyb3F1aWEgU2FudGEgVGVyZXNpdGEgZGVsIG5pw7FvIEplc8O6c0iI2szP5YCAgAhaQxAAEAEQAhADEAQQBRgAGAEYAhgDGAQYBSIpcGFycm9xdWlhIHNhbnRhIHRlcmVzaXRhIGRlbCBuacOxbyBqZXPDunOSAQ9jYXRob2xpY19jaHVyY2iaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTkVNUzFMZUcxUlJSQUKqAYEBEAEqLSIpcGFycm9xdWlhIHNhbnRhIHRlcmVzaXRhIGRlbCBuacOxbyBqZXPDunMoDjIfEAEiG-LkJTE8VfNnthmQpNadRKhQ7XMdaVj7kAfSbTItEAIiKXBhcnJvcXVpYSBzYW50YSB0ZXJlc2l0YSBkZWwgbmnDsW8gamVzw7pz&vet=12ahUKEwjBgL-IqMWHAxVeqZUCHUL7DvgQ1YkKegQIJRAB..i&cs=1&um=1&ie=UTF-8&fb=1&gl=ar&sa=X&geocode=Ka2dGOLKtryVMa-cQ-YWVQJI&daddr=Julio+Argentino+Roca+2045,+B1602DBK+Vicente+L%C3%B3pez,+Provincia+de+Buenos+Aires">COMO LLEGAR</a>
+        </div>
+        <div data-aos="fade-up"  class="ubicacion-bloque">
+            <img class="icon"  src="./figuras/fiesta.png" alt="fiesta">
+            <h2>FIESTA</h2>
+            <p>Luego de la ceremonia religiosa te esperamos para festejar juntos. <br> Jano's Del Viso de las 21 hs. <br>Av Ingeniero Eduardo Madero 630.</p>
+            <a class="boton" href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqDQgBEC4YrwEYxwEYgAQyCggAEAAY4wIYgAQyDQgBEC4YrwEYxwEYgAQyBggCEEUYOTIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQgxODQ3ajBqN6gCALACAA&um=1&ie=UTF-8&fb=1&gl=ar&sa=X&geocode=KUVgIB8Rn7yVMRuJGR6N7u1L&daddr=67+km,+Av.+Ing.+Eduardo+Madero+630+13,+B1669+Del+Viso">COMO LLEGAR</a>
+        </div>
+    </div>
+    <div class="galeria">
+        <img class="f1" src="./img-editables/1.png" alt="Novios">
+        <img class="f2" src="./img-editables/2.png" alt="Novios">
+        <img class="f3" src="./img-editables/4.png"  alt="Novios">
+        <img class="f4" src="./img-editables/3.png"  alt="Novios">
+    </div>
+    <div data-aos="fade-in" class="timing">
+
+    </div>
+    <div   class="dresscode">
+        <h2 data-aos="fade-in" >DRESS CODE - ELEGANTE</h2>
+        
+    </div>
+    <div class="ubicacion">
+   <!--
+          <div data-aos="fade-up"  class="ubicacion-bloque">
+            <img class="icon" src="./figuras/instagram.png" alt="instagram">
+            <h2>INSTAGRAM</h2>
+            <p>¡No nos queremos perder de nada!. Compartí las fotos y videos de la fiesta usando nuestro hashtag.</p>
+            <a class="boton" href="https://www.instagram.com/siquiero.arg">#CAMIYJUAN</a>
+        </div>
+   -->
+        <div data-aos="fade-up"  class="ubicacion-bloque">
+            <img class="icon"  src="./figuras/spotify.png" alt="playlist">
+            <h2>PLAYLIST</h2>
+            <p>No hay boda sin fiesta, ayudanos a elegir la música de la boda.</p>
+            <a class="boton" href="https://docs.google.com/forms/d/e/1FAIpQLSf3G8QFdNZ9Xjn9nseELpKBCFB6UqYkCfNRlW_enmhEstaz9Q/viewform?usp=sf_link">  PLAYLIST  </a>
+        </div>
+    </div>
+    
+    <div class="galeria">
+        <img class="f1" src="./img-editables/5.png" alt="Novios">
+        <img class="f2" src="./img-editables/6.png" alt="Novios">
+        <img class="f3" src="./img-editables/7.png"  alt="Novios">
+        <img class="f4" src="./img-editables/8.png"  alt="Novios">
+    </div>
+    <div class="caja">
+        <div data-aos="fade-in" class="ubicacion-bloque dos" >
+            <img class="icon"  src="./figuras/giftcard.png" alt="giftcard">
+            <h2>MESA DE REGALOS</h2>
+            <p>Tu presencia es lo más importante, pero si deseas hacernos un regalo podrias ayudarnos con nuestra luna de miel.</p>
+           <div class="rsvpbotones">
+              <a class="boton" onclick="copyToClipboard('0170020640000003605422')" >CBU EN $</a>
+              <a class="boton" onclick="copyToClipboard('BODA.NACHOYSOFI')">ALIAS EN $</a> 
+              <a class="boton" onclick="copyToClipboard('0170020644000061098118')" >CBU EN u$s</a>
+              <a class="boton" onclick="copyToClipboard('USD.NACHOYSOFI')">ALIAS EN u$s</a> 
+              
+            </div>
+      
+            
+            <p>Hace clic para copiar los datos de nuestra cuenta. <br> Titular: Sofía Paula Castro</p>
+        </div>
+    </div>
+    <div data-aos="fade-in"  class="ubicacion-bloque tres" >
+        <img class="icon" src="./figuras/asistencia.png" alt="asistencia">
+        <h2 >RSVP</h2>
+        <p >No olvides confirmar asistencia antes del 12 de Noviembre.</p>
+       
+        <div class="rsvpbotones">
+            <a class="boton1" href="https://forms.gle/sXscXQESbJ5THNfu7">CONFIRMAR</a> 
+            <a  class="boton1" href="https://calendar.app.google/4a7kWFoo64cvpXM86">AGENDAR</a>
+        </div>
+    </div>
+    <div class="end">
+      <div class="end-names">
+        <img src="./img-editables/endnames.png" alt="">
+      </div>
+    </div>
+    </div>
+    <footer>
+        <div class="contenido">
+         <div>
+           <img src="./figuras/logosiquiero.png" alt="icono si quiero">
+             <p>Hecho con &hearts; <br>
+             &#169 <b>Si,quiero!</b> - invitaciones inteligentes.
+             <br> Todos los derechos reservados.</p>
+         </div>
+            
+         <div class="contenido-list">
+             <ul>
+                 <li><a target="_blank" href="https://www.instagram.com/siquiero.arg/"><i class="bi bi-instagram"></i></a></li>
+                 <li><a target="_blank" href="https://www.facebook.com/Invitaciones-web-112187784608681"><i class="bi bi-facebook"></i></a></li>
+                 <li><a target="_blank" href="mailto:siquiero.invitaciones@gmail.com"><i class="bi bi-envelope"></i></a></li>
+               </ul>
+         </div>
+        </div>
+        
+     </footer>
+
+      <script src="script.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+
+    function copyToClipboard(text) {
+       const tempInput = document.createElement("input");
+       document.body.appendChild(tempInput);
+       tempInput.value = text;
+       tempInput.select();
+       document.execCommand("copy");
+       document.body.removeChild(tempInput);
+       alert(`Copiaste los datos de cuenta "${text}" a tu portapapeles`);
+     }
+   </script>
+<script>
+    // Espera a que se cargue el DOM
+    document.addEventListener("DOMContentLoaded", function () {
+      const scrollToTopBtn = document.querySelector("#scroll-to-top");
+
+      scrollToTopBtn.addEventListener("click", () => {
+        // Comprueba la compatibilidad con "scroll-behavior"
+        if ("scrollBehavior" in document.documentElement.style) {
+          // Usa el desplazamiento suave del navegador
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+        } else {
+          // Desplazamiento suave de respaldo para navegadores antiguos
+          scrollToTop(0, 600);
+        }
+      });
+
+      // Función de desplazamiento suave de respaldo para navegadores antiguos
+      function scrollToTop(to, duration) {
+        const start = window.scrollY || document.documentElement.scrollTop;
+        const change = to - start;
+        const increment = 20;
+        let currentTime = 0;
+
+        const animateScroll = function () {
+          currentTime += increment;
+          const val = Math.easeInOutQuad(currentTime, start, change, duration);
+          window.scrollTo(0, val);
+          if (currentTime < duration) {
+            requestAnimationFrame(animateScroll);
+          }
+        };
+
+        Math.easeInOutQuad = function (t, b, c, d) {
+          t /= d / 2;
+          if (t < 1) return c / 2 * t * t + b;
+          t--;
+          return -c / 2 * (t * (t - 2) - 1) + b;
+        };
+
+        requestAnimationFrame(animateScroll);
+      }
+    });
+  </script>
+</body>
+</html>
